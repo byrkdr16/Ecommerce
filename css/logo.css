@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#453c5c;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#a1349c;
+    --border-color:#e5e8ec;
+    --dark-color:#0a0a21;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+
+/* HEADER -----------------------------------------------
+------------------  HEADER NAV  -------------------------
+-------------------------------------------------------*/
+
+.header-nav{
+    padding: 0.5em 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--border-color);
+    
+}
+
+.trigger {
+    font-size: 1.5em;
+    display: flex;
+    padding: 0.25em;
+    margin-right: 0.5em;
+}
+
+.logo a{
+    font-family: 'Poppins';
+    font-size: 1.75em;
+    position: relative;
+    font-weight: var(--fw8);
+    display: flex;
+    padding-left: 0.75em;
+    margin-right: 2em;
+}
+
+.circle{
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: var(--parcent50);
+    background-color: var(--light-color);
+    z-index: -1;
+}
+.circle::before{
+    content: '';
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    border-radius: var(--parcent50);
+    background-color: var(--secodary-color);
+    bottom: 10px;
+    left: 85px;
+    opacity: .4;
+    
+}
+.header-nav nav > ul{
+    line-height: 100px;
+    gap: 2em;
+}
+.fly-item{
+    position: absolute;
+    height: 16px;
+    width: 5px;
+    font-size: var(--font-smaller);
+    padding: 3px;
+    text-align: center;
+    line-height: 10px;
+    color: var(--white-color);
+}
+
+nav .fly-item{
+    top: 50%;
+    margin-top: -24px;
+    width: 30px;
+    border-radius: 3px;
+    right: -32px;
+    background-color: var(--primary-color);
+}
+
+.header-nav .right{
+    position: relative;
+    margin-left: auto;
+}
+.header-nav .right .icon-large{
+    position: relative;
+}
+.header-nav .right .fly-item{
+    top: 0;
+    right: 16px;
+    width: 16px;
+    background-color: var(--secondary-dark-color);
+    border-radius: var(--parcent50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+  .desktop-hide{
+    display: none;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

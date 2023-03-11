@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#453c5c;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#ecdbe4;
+    --border-color:#e5e8ec;
+    --dark-color:#04040a;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+
+.dpt-menu > ul >li > a{
+    font-size: var(--font-small);
+    height: 46px;
+    align-items: center;
+}
+.dpt-menu .has-child:hover ul{
+    display: block;
+}
+.dpt-menu .has-child li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+/*Departments Menu*/
+.dpt-menu{
+   position: absolute;
+   top: var(--parcent100);
+   width: 300px;
+   background-color: var(--white-color);
+   border: 1px solid var(--border-color); 
+   border-top: 0;
+   border-bottom: 0;
+}
+.dpt-menu > ul >li > a{
+    font-weight: var(--fw5);
+    padding: 0 1.5em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dpt-menu .has-child > ul, .dpt-menu .mega{
+    position: absolute;
+    top: 0;
+    left: var(--parcent100);
+    width: var(--parcent100);
+    height: auto;
+    min-height: var(--parcent100);
+    padding: 1.5em;
+    font-size: var(--font-small);
+    line-height: 2.5em;
+    border: 1px solid var(--border-color);
+    border-top: 0;
+    display: none;/*dpt-menunun içeriğini gizler*/
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+/*beauty menuyu yandan açmasını yapar*/
+.dpt-menu .mega {
+    display: none;
+}
+.dpt-menu .beauty ul {
+    background-image: url(../assets/menu/menu_bg1.jpg);/*Foto yüklerken
+    assest önüne iki nokta koy yoksa çalışmaz*/
+    
+}
+.dpt-menu .electric ul {
+    background-image: url(../assets/menu/menu_bg2.jpg);
+    
+}
+.dpt-menu .fashion ul {
+    background-image: url(../assets/menu/menu_bg3.jpg);
+    
+}
+.dpt-menu .homekit .mega {
+    background-image: url(../assets/menu/menu_bg4.jpg);
+    
+}
+.dpt-menu .has-child > :where(ul, .mega)::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(50deg, rgb(104 103 103) 0%, rgba(255,255,255,0) );
+}
+.dpt-menu .mega{
+    width: max-content;
+    min-width: var(--parcent100);
+}
+.dpt-menu .has-child:hover .mega{
+    display: flex;
+}
+
+
+}
