@@ -64,6 +64,20 @@ border-bottom-right-radius:160px 25px ;
 .off-canvas .canvas-head .logo .circle{
     opacity: .75;
 }
+.t-close {
+    font-size: 1.25em;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--parcent50);
+    background-color: var(--secondary-dark-color);
+    color: var(--white-color);
+    transition: var(--trans-background-color);
+}
+.t-close:hover{
+    background-color: var(--white-color);
+    color: var(--secondary-dark-color);
+    opacity: .75;
+}
 
 
 
