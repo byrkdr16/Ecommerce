@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#440b33;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#ecdbe4;
+    --border-color:#e5e8ec;
+    --dark-color:#04040a;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+
+.site-off {
+    position: fixed;
+    width: 320px;
+    height: var(--parcent100);
+    background-color: var(--white-color);
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.off-canvas{
+    width: var(--parcent100);
+    height: var(--parcent100);
+    touch-action: auto;/*CSS touch-actionözelliği, belirli bir
+    bölgenin kullanıcı tarafından değiştirilip değiştirilemeyeceğini 
+    ve hangi şekillerde değiştirilebileceğini (örneğin, kaydırarak 
+    veya yakınlaştırarak) belirtir.*/
+    padding: 1.5em;
+}
+
+.off-canvas .canvas-head{
+color: var(--white-color);
+justify-content: space-between;
+padding: 1.5em;
+margin: -1.5em -1.5em 1.5em;
+background-color: var(--secondary-dark-color);
+border-bottom-right-radius:160px 25px ; 
+}
+.off-canvas .canvas-head .logo{
+    z-index: 10;
+    position: relative;
+}
+.off-canvas .canvas-head .logo .circle{
+    opacity: .75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
