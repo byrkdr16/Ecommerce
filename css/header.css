@@ -66,10 +66,10 @@
     z-index: 1;
     display: none;
 }
-.header-top .right ul ul li a{
+:where(.header-nav, .thetop-nav) .right ul ul li a{
     padding: 0.25em 1em;
 }
-.header-top .right ul ul li.current a{
+:where(.header-nav, .thetop-nav) .right ul ul li.current a{
     background-color: var(--border-color);
 }
 .header-top li:hover ul{
