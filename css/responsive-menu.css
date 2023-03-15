@@ -51,8 +51,9 @@
 
 .off-canvas .canvas-head{
 color: var(--white-color);
+display: flex;
 justify-content: space-between;
-padding: 1.5em;
+padding: 2.5em;
 margin: -1.5em -1.5em 1.5em;
 background-color: var(--secondary-dark-color);
 border-bottom-right-radius:160px 25px ; 
