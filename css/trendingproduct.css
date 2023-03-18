@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#453c5c;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#a1349c;
+    --border-color:#e5e8ec;
+    --dark-color:#0a0a21;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+.sectop {
+    justify-content: space-between;
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--border-color);
+}
+.sectop h2{
+    position: relative;
+    font-size: 2em;
+    font-weight: var(--fw7);
+}
+.sectop h2 span:not(.circle){
+    padding: 0 0 0 2em;
+}
+.sectop h2 .circle{
+    top: -5px;
+}
+.trending .products{
+    flex: 0 0 33.3333%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
