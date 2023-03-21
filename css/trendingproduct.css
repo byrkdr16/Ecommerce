@@ -128,6 +128,23 @@
     transition-delay:.1s ;
 }
 
+.products .discount{
+    top: auto;
+    right: 0;
+    left: auto;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+.products .discount::before {
+    background-color: var(--dark-color);
+}
+.products .discount span{
+    position: relative;
+    font-size: var(--font-smaller);
+    font-weight: var(--fw5);
+    color: var(--dark-color);
+}
 
 
 
