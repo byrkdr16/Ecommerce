@@ -131,9 +131,11 @@
 .products .discount{
     top: auto;
     right: 0;
+    width: 38px;
+    height: 38px;
     left: auto;
     bottom: 0;
-    background-color: transparent;
+    background-color: rgb(194, 194, 194);
     z-index: 1;
 }
 .products .discount::before {
@@ -145,6 +147,28 @@
     font-weight: var(--fw5);
     color: var(--dark-color);
 }
+.products .content {
+    display: flex;
+    flex-direction: column;
+}
+.products:where(.big, .main.one) .content{
+    gap: 1em;
+    margin-top: 1.25em;
+}
+.products .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.products .rating .stars{
+    width: 80px;
+    height: 17px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16'%3E%3Cpath fill='none' d='M0 0h24v24H0z'/%3E%3Cpath d='M12 18.26l-7.053 3.948 1.575-7.928L.587 8.792l8.027-.952L12 .5l3.386 7.34 8.027.952-5.935 5.488 1.575 7.928z' fill='rgba(241,196,14,1)'/%3E%3C/svg%3E");
+    background-position-y: top;
+    background-repeat: no-repeat;
+
+}
+
 
 
 
