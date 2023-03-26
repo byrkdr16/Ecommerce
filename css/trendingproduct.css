@@ -206,7 +206,10 @@
     background-color: var(--secodary-color);
 }
 
-
+.products .item{
+    display: flex;
+    position: relative;
+}
 
 
 
@@ -219,7 +222,15 @@
     max-width: 400px;
     margin: 0 auto;
 }
-
+/* MINI Product*/
+.products.mini .item{
+    margin-bottom: 2em;
+}
+.products.mini .media{
+    width: 130px;
+    height: 160px;
+    margin-right: 1.25em;
+}
 
 
 
