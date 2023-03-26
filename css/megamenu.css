@@ -79,6 +79,10 @@
   font-size: var(--font-smaller);
   color: var(--light-text-color);
 }
+.mini-text span{
+    font-size: 1.2em;
+    color: #ff6b6b;
+}
 
 
 
