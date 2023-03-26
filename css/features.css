@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#453c5c;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#c4c4c4;
+    --border-color:#e5e8ec;
+    --dark-color:#0a0a21;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+
+.products.main .item{
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 0 0.938em;
+    padding-bottom: 2em;
+}
+.products.main .media{
+    height: 390px;
+}
+
+
+@media screen and (min-width:768px){
+    .products.main .item{
+        flex: 0 0 33%;
+    }
+}
+
+
+

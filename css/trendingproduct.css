@@ -218,7 +218,7 @@
     border: 2px solid var(--secondary-dark-color);
     border-radius: 7px;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 /* MINI Product*/
 .products.mini .item{
@@ -236,6 +236,9 @@
     .products .price .current {
         font-size: 1.25em;
     }
+     .products.main .item{
+        flex:0 0 33,3333%;
+    }
 }
 
 
@@ -244,6 +247,7 @@
   .trending .products{
     flex: 0 0 33.3333%;
 }
+
 }
 
 
