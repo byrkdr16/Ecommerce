@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color:#ff6b6b;
+    --secodary-color: #794afa;
+    --secondary-dark-color:#453c5c;
+    
+    --white-color:#fff;
+    --light-color:#f2f3f5;
+    --light-text-color:#7c899a;
+    --light-bg-color:#c4c4c4;
+    --border-color:#e5e8ec;
+    --dark-color:#0a0a21;
+    
+    --font-small:13px;
+    --font-smaller:11px;
+    
+    --parcent100: 100%;
+    --parcent50: 50%;
+    
+    --fw3: 300;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+    --fw8: 800;
+    
+    --trans-background-color: background-color .3s, color .3s;
+    --trans-background: background-color .3s;
+    --trans-color: color .3s;
+    
+}
+.newsletter {
+    padding: 2.5em 0;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+.newsletter h3{
+    font-size: 1.5em;
+}
+.newsletter p{
+    font-weight: var(--fw3);
+    color: var(--border-color);
+    margin: 0.5em 1.5em;
+}
+
+.newsletter p strong {
+    color: var(--primary-color);
+}
+.newsletter form{
+    max-width: 500px;
+    width: var(--parcent100);
+}
+
+
+@media screen and (min-width:768px) {
+    .newsletter .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
