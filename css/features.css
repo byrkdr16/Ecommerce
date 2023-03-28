@@ -99,7 +99,9 @@
 .banner h3 span{
     font-size: 80%;
 }
-
+.banner .primary-button{
+    z-index: 3;
+}
 
 
 
@@ -127,7 +129,7 @@
     .products .price .current{
         font-size: 1.25em;
     }
-    .products.mini , .banner .row{
+    .banner .row{
         flex: 0 0 50%;
     }
 }
