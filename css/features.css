@@ -39,6 +39,37 @@
 .products.main .media{
     height: 390px;
 }
+.products.main .footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0 1em 1em;
+    border-radius: 7px;
+    z-index: 1;
+    background: linear-gradient(0deg, var(--light-bg-color) 0%, var(--white-color));
+    opacity: 0;
+    visibility: hidden;
+    will-change: opacity;
+    transition: all .2s ease-in-out;
+}
+
+
+
+.products.main .footer ul{
+    list-style: disc;
+    padding: 1.25em 0 0 1.25em;
+    line-height: 1.8;
+    border-top: 1px solid var(--border-color);
+    margin-top: 145px;
+}
+.products.main .item:hover .content > *:not(.footer){
+    z-index: 3;
+}
+
+.products.main .item:hover .footer {
+    opacity: 1;
+    visibility: visible;
+}
 
 
 
@@ -46,10 +77,7 @@
 
 
 
-
-
-
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     .products.main .item{
         flex: 0 0 33%;
     }
